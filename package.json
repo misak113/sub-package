@@ -1,0 +1,17 @@
+{
+  "name": "tmp-modules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-my-package": "npm start --prefix modules/my-package",
+    "install-my-package": "npm install --prefix modules/my-package"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^1.7.0-dev.20151006"
+  }
+}
